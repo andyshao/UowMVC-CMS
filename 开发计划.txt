@@ -1,0 +1,18 @@
+version 1.0
+偏向于一个博客文章、论坛性质的CMS前台页面在一定程度上内容可定制的轻量级的CMS系统。
+一、后台
+1.单页创建、编辑、删除。单页支持列举分类页。属性：ID（自定义），Name，Tag，Content，Children（分类页集合），Author，CreateDate。
+2.分类创建、编辑、删除。属性：ID（自定义），Name，Tag，Description，ArtcleCount，CommentCount，CreateDate。
+3.文章页创建、编辑、删除。文章的创建支持前台用户操作。属性：ID（自定义），Name，Content，Tag，Author，CreateDate。
+4.前台菜单的创建、编辑、删除。注：菜单支持外链、內链（单页、分类页、文章页）。属性：ID（系统生成int），Name，URL，Visible。
+5.单页、文章页评论审核（删除、通过、垃圾）。
+6.友链的创建、编辑、删除。
+
+二、前台
+1.UI（需要考虑移动端兼容问题）；
+2.首页；
+3.菜单；
+4.单页；
+5.文章页；
+6.评论；
+7.论坛；
